@@ -7,6 +7,8 @@ This is a full-stack medical clinic management system built for "Al-sawab Clinic
 ## User Preferences
 
 Preferred communication style: Simple, everyday language.
+Contact information: Phone +234 813 012 0622 with WhatsApp integration.
+Login requirement: Users must authenticate to access patient management features.
 
 ## System Architecture
 

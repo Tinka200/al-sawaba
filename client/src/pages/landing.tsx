@@ -56,6 +56,11 @@ export default function Landing() {
                 Providing comprehensive medical care with compassion and excellence. 
                 Your health is our priority at Al-sawab Clinic & Maternity.
               </p>
+              <div className="bg-blue-900/30 border border-blue-300/30 rounded-lg p-4 mb-6">
+                <p className="text-blue-100 text-lg font-medium">
+                  🔐 Please log in to access patient management, appointments, and medical records
+                </p>
+              </div>
               <div className="flex flex-col sm:flex-row space-y-4 sm:space-y-0 sm:space-x-4">
                 <Button
                   size="lg"
@@ -69,9 +74,10 @@ export default function Landing() {
                   size="lg"
                   variant="outline"
                   className="border-white text-white hover:bg-white hover:text-[hsl(207,90%,54%)]"
+                  onClick={() => window.open('https://wa.me/2348130120622', '_blank')}
                 >
                   <Phone className="mr-2" size={20} />
-                  Emergency: (555) 123-4567
+                  WhatsApp: +234 813 012 0622
                 </Button>
               </div>
             </div>
@@ -230,8 +236,17 @@ export default function Landing() {
                 <div>
                   <h3 className="text-xl font-semibold text-gray-800 mb-2">Phone</h3>
                   <p className="text-gray-600">
-                    Emergency: (555) 123-4567<br />
-                    Appointments: (555) 123-4568
+                    <a href="tel:+2348130120622" className="hover:text-[hsl(207,90%,54%)]">
+                      +234 813 012 0622
+                    </a><br />
+                    <a 
+                      href="https://wa.me/2348130120622" 
+                      target="_blank" 
+                      rel="noopener noreferrer"
+                      className="hover:text-[hsl(159,84%,37%)]"
+                    >
+                      WhatsApp: +234 813 012 0622
+                    </a>
                   </p>
                 </div>
               </div>
