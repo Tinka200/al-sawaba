@@ -35,3 +35,4 @@ waitForPort = 5000
 [[ports]]
 localPort = 5000
 externalPort = 80
+GITHUB-TOKEAM= ssh-ed25519 AAAAC3NzaC1I2DIINTESAAAATK0g1b8XrXWzxyMmXglIIiebAS6wEcBNBIPIppYt+1w0 abdullahitinka6@gmail.com
